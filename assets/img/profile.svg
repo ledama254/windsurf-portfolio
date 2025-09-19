@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Profile avatar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6aa2ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="160" cy="160" r="150"/>
+    </clipPath>
+  </defs>
+  <rect width="320" height="320" rx="50" fill="#0b0d10"/>
+  <g transform="translate(160,160)">
+    <circle cx="0" cy="0" r="120" fill="url(#bg)"/>
+    <circle cx="-30" cy="-20" r="18" fill="#fff"/>
+    <circle cx="30" cy="-20" r="18" fill="#fff"/>
+    <path d="M -60 30 Q 0 80 60 30" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g clip-path="url(#circle)">
+    <circle cx="160" cy="160" r="150" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="6"/>
+  </g>
+</svg>
