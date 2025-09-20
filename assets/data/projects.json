@@ -11,12 +11,5 @@
     "description": "Jupyter Notebook project analyzing global COVID-19 data with visualizations and trend insights.",
     "tags": ["Jupyter", "Python", "Pandas", "Matplotlib"],
     "repo": "https://github.com/ledama254/COVID-19-Global-Data-Tracker"
-  },
-  {
-    "title": "ImageSense",
-    "description": "Smart image optimizer with responsive sources and on-the-fly transformations.",
-    "tags": ["Go", "CDN", "Docker"],
-    "demo": "https://example.com/imagesense",
-    "repo": "https://github.com/your-github/imagesense"
   }
 ]
